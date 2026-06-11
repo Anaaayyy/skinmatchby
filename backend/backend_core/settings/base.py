@@ -6,7 +6,7 @@ BASE_DIR = PROJECT_DIR.parent
 
 SECRET_KEY = 'django-insecure-change-this-in-production'
 DEBUG = True
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'skinmatcby-production.up.railway.app', '.railway.app']
 
 INSTALLED_APPS = [
     'home',
