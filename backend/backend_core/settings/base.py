@@ -6,7 +6,7 @@ BASE_DIR = PROJECT_DIR.parent
 
 SECRET_KEY = 'django-insecure-change-this-in-production'
 DEBUG = True
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'skinmatcby-production.up.railway.app', '.railway.app']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 
 INSTALLED_APPS = [
@@ -122,13 +122,11 @@ CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    "https://skinmatcby-production.up.railway.app",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:8000',
     'http://127.0.0.1:8000',
-    'https://skinmatcby-production.up.railway.app',
 ]
 
 REST_FRAMEWORK = {
